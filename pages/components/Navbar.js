@@ -14,7 +14,7 @@ function Navbar() {
                            <div className="flex item items-center h-20 w-full">
                                 <div className="flex justify-center items-center flex-shrink-0">
                                     <a className="pl-10 font-bold text-xl cursor-pointer">
-                                        IF<span className="text-blue-500"></span>
+                                        IF
                                     </a>
                                 </div>    
                                 <div className="hidden md:block">
