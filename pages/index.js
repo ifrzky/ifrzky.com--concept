@@ -89,20 +89,6 @@ export default function Home() {
               <div class="break-inside-avoid"> <img src="/images/if.png"/> </div>
               <div class="break-inside-avoid"> <img src="/images/yu-guitar.png"/> </div>
             </div>
-          {/* </div> */}
-        {/* </div> */}
-        {/* <div className="box-border md:box-content float-left w-100% pb-10">
-          <img classname="box-content" src="/images/yu-guitar.png" alt=""/>
-          <div>
-            <a className="post_link" href="/images/yuchan.png"/>
-          </div>
-        </div>
-        <div className="box-border md:box-content float-right w-72 pb-10">
-          <img classname="box-content" src="/images/yu-guitar.png" alt=""/>
-          <div>
-            <a className="post_link" href="/images/yuchan.png"/>
-          </div>
-        </div> */}
       </article>
         <Footer className="float" />
       </div>
