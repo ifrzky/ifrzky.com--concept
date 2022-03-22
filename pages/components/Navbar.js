@@ -39,25 +39,25 @@ function Navbar() {
                                         >
                                             works
                                         </Link>
-                                        <Link 
-                                            activeClass="shop" 
-                                            to="shop" 
-                                            smooth={true}
-                                            offset={50} 
-                                            duration={500}
-                                            className="cursor-pointer px-3 py-2 text-md hover:font-black"
-                                        >
-                                            shop
-                                        </Link>
-                                        <Link 
-                                            activeClass="exhibition" 
-                                            to="ex" 
-                                            smooth={true}
-                                            offset={50} 
-                                            duration={500}
-                                            className="cursor-pointer px-3 py-2 text-md hover:font-black"
-                                        >
-                                            exhibition
+//                                         <Link 
+//                                             activeClass="shop" 
+//                                             to="shop" 
+//                                             smooth={true}
+//                                             offset={50} 
+//                                             duration={500}
+//                                             className="cursor-pointer px-3 py-2 text-md hover:font-black"
+//                                         >
+//                                             shop
+//                                         </Link>
+//                                         <Link 
+//                                             activeClass="exhibition" 
+//                                             to="ex" 
+//                                             smooth={true}
+//                                             offset={50} 
+//                                             duration={500}
+//                                             className="cursor-pointer px-3 py-2 text-md hover:font-black"
+//                                         >
+//                                             exhibition
                                         </Link>
                                     </div>
                                 </div>
@@ -67,18 +67,9 @@ function Navbar() {
                                 </div>    
                                 <div className="hidden md:block">
                                     <div className="font-serif pt-10 m1-10 pb-10 flex items-baseline space-x-4">
-                                        {/* <Link 
-                                            activeClass="about" 
-                                            to="about" 
-                                            smooth={true}
-                                            offset={50} 
-                                            duration={500}
-                                            className="cursor-pointer px-3 py-2 text-md hover:font-black"
-                                        > */}
                                         <a class="instagram__button" href="https://www.instagram.com/ifrzky__/">
                                             <img className="w-[28px]" src="../images/ig.png"/>
                                         </a>
-                                        {/* </Link> */}
                                     </div>
                                 </div>
                             </div>
