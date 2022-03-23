@@ -18,32 +18,32 @@ export default function Home() {
         <meta chaeset="UTF-8"/>
         <meta http-equiniv="X-UA-Compatible" content="IE=edge"/>
       <Navbar />
-      <article id="1" className="pt-36 pb-35 relative">
+      <article id="1" className="article pt-36 pb-35 relative">
         {/* <div class="container"> */}
           {/* <div class="main"> */}
           {/* <div class="highlight font-sans ml-10 mt-10 pt-20 text-8xl opacity-75" className={styles.highlight}>latest works</div> */}
-            <div class="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-3 w-[1200ox] mx-auto ml-12 mr-12 mt-10 space-y-3 pb-28">
-              <div class="break-inside-avoid"> 
+            <div class="article-wrapper columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-3 w-[1200ox] mx-auto ml-12 mr-12 mt-10 space-y-3 pb-28">
+              <div class="content-wrapper break-inside-avoid"> 
                 <Link href="/sa"> 
                   <img src="/images/sa.png"></img>
                 </Link>
               </div>
-              <div class="break-inside-avoid"> <a className="article" href=""> <img src="/images/untitled-152.png"/></a> </div>
-              <div class="break-inside-avoid"> <a className="article" href=""> <img src="/images/before nisbi.png"/></a> </div>
-              <div class="break-inside-avoid"> <img src="/images/h110.png"/> </div>
-              <div class="break-inside-avoid"> <img src="/images/nananananana-short-closeip.png"/></div>
-              <div class="break-inside-avoid"> <img src="/images/if.png"/> </div>
-              <div class="break-inside-avoid"> <img src="/images/yu-guitar.png"/> </div>
-              <div class="break-inside-avoid">
+              <div class="content-wrapper break-inside-avoid"> <a className="article" href=""> <img src="/images/untitled-152.png"/></a> </div>
+              <div class="content-wrapper break-inside-avoid"> <a className="article" href=""> <img src="/images/before nisbi.png"/></a> </div>
+              <div class="content-wrapper break-inside-avoid"> <img src="/images/h110.png"/> </div>
+              <div class="content-wrapper break-inside-avoid"> <img src="/images/nananananana-short-closeip.png"/></div>
+              <div class="content-wrapper break-inside-avoid"> <img src="/images/if.png"/> </div>
+              <div class="content-wrapper break-inside-avoid"> <img src="/images/yu-guitar.png"/> </div>
+              <div class="content-wrapper break-inside-avoid">
                 <img src="/images/sa.png"/>
               </div>
-              <div class="break-inside-avoid"> <img src="/images/untitled-152.png"/> </div>
-              <div class="break-inside-avoid"> <img src="/images/before nisbi.png"/> </div>
-              <div class="break-inside-avoid"> <img src="/images/h110.png"/> </div>
-              <div class="break-inside-avoid"> <img src="/images/nananananana-short-closeip.png"/></div>
-              <div class="break-inside-avoid"> <img src="/images/if.png"/> </div>
-              <div class="break-inside-avoid"> <img src="/images/yu-guitar.png"/> </div>
-              <div class="break-inside-avoid">
+              <div class="content-wrapper break-inside-avoid"> <img src="/images/untitled-152.png"/> </div>
+              <div class="content-wrapper break-inside-avoid"> <img src="/images/before nisbi.png"/> </div>
+              <div class="content-wrapper break-inside-avoid"> <img src="/images/h110.png"/> </div>
+              <div class="content-wrapper break-inside-avoid"> <img src="/images/nananananana-short-closeip.png"/></div>
+              <div class="content-wrapper break-inside-avoid"> <img src="/images/if.png"/> </div>
+              <div class="content-wrapper break-inside-avoid"> <img src="/images/yu-guitar.png"/> </div>
+              <div class="content-wrapper break-inside-avoid">
                 <img src="/images/sa.png"/>
               </div>
               <div class="break-inside-avoid"> <img src="/images/untitled-152.png"/> </div>
@@ -90,7 +90,7 @@ export default function Home() {
               <div class="break-inside-avoid"> <img src="/images/yu-guitar.png"/> </div>
             </div>
       </article>
-        <Footer className="float" />
+        <Footer className="footer-relative" />
       </div>
   )
 }
