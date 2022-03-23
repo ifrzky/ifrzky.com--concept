@@ -62,11 +62,12 @@ function Navbar() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex item items-center mx-20 justify-between w-full">
-                                <div className="flex justify-center items-center flex-shrink-0">
+//                                 second block section
+                            <div className="wrapper flex item items-center mx-20 justify-between w-full">
+                                <div className="content-wrapper flex justify-center items-center flex-shrink-0">
                                 </div>    
-                                <div className="hidden md:block">
-                                    <div className="font-serif pt-10 m1-10 pb-10 flex items-baseline space-x-4">
+                                <div className="content-wrapper hidden md:block">
+                                    <div className="social_wrapper font-serif pt-10 m1-10 pb-10 flex items-baseline space-x-4">
                                         <a class="instagram__button" href="https://www.instagram.com/ifrzky__/">
                                             <img className="w-[28px]" src="../images/ig.png"/>
                                         </a>
