@@ -7,13 +7,13 @@ function Navbar() {
         return(
             <div>
                 {/* for main nav container */}
-                <nav className="bg-white shadow-md floating w-full z-10">
-                   <div className="w-full">
-                       <div className="flex items-center h-20 w-full">
+                <nav className="nav_wrapepr bg-white shadow-md floating w-full z-10">
+                   <div className="nav-wrapper__wrapper w-full">
+                       <div className="block-section__wrapper flex items-center h-20 w-full">
                            {/* first block section outer part */}
-                           <div className="flex item items-center h-20 w-full">
-                                <div className="flex justify-center items-center flex-shrink-0">
-                                    <a className="pl-10 font-bold text-xl cursor-pointer">
+                           <div className="block-section__1 flex item items-center h-20 w-full">
+                                <div className="wrapper flex justify-center items-center flex-shrink-0">
+                                    <a className="left-home__logo pl-10 font-bold text-xl cursor-pointer">
                                         IF
                                     </a>
                                 </div>    
