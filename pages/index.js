@@ -46,13 +46,13 @@ export default function Home() {
               <div class="content-wrapper break-inside-avoid">
                 <img src="/images/sa.png"/>
               </div>
-              <div class="break-inside-avoid"> <img src="/images/untitled-152.png"/> </div>
-              <div class="break-inside-avoid"> <img src="/images/before nisbi.png"/> </div>
-              <div class="break-inside-avoid"> <img src="/images/h110.png"/> </div>
-              <div class="break-inside-avoid"> <img src="/images/nananananana-short-closeip.png"/></div>
-              <div class="break-inside-avoid"> <img src="/images/if.png"/> </div>
-              <div class="break-inside-avoid"> <img src="/images/yu-guitar.png"/> </div>
-              <div class="break-inside-avoid">
+              <div class="content-wrapper break-inside-avoid"> <img src="/images/untitled-152.png"/> </div>
+              <div class="content-wrapper break-inside-avoid"> <img src="/images/before nisbi.png"/> </div>
+              <div class="content-wrapper break-inside-avoid"> <img src="/images/h110.png"/> </div>
+              <div class="content-wrapper break-inside-avoid"> <img src="/images/nananananana-short-closeip.png"/></div>
+              <div class="content-wrapper break-inside-avoid"> <img src="/images/if.png"/> </div>
+              <div class="content-wrapper break-inside-avoid"> <img src="/images/yu-guitar.png"/> </div>
+              <div class="content-wrapper break-inside-avoid">
                 <img src="/images/sa.png"/>
               </div>
               <div class="break-inside-avoid"> <img src="/images/untitled-152.png"/> </div>
